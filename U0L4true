@@ -1,0 +1,142 @@
+<!DOCTYPE HTML>
+<style>
+h1 {
+  color:red;
+  background-color:green;
+  text-align:center;
+}
+#a {
+  color:green;
+  background-color:red;
+  text-align:left;
+}
+#b {
+  text-align:right;
+  color:yellow;
+  background-color:orange;
+  font-size:50px;
+}
+
+#c {
+  width:100px;
+}
+#d {
+  width:50%;
+  color:blue;
+  background-color:red;
+}
+#e {
+  color:pink;
+  background-color:orange;
+}
+#f {
+  height:200px;
+}
+#g {
+  color:purple;
+  background-color:black;
+}
+#h {
+  color:white;
+  background-color:orange;
+  height:100px;
+}
+.a {
+  color:red;
+  background-color:blue;
+}
+.b {height:100px}
+
+.c {
+  height:100px;
+  color:white;
+  background-color:red;
+}
+
+.d {
+  width:50%;
+  color:red;
+  background-color:blue;
+}
+.e {
+  height:200px;
+}
+
+.aa {
+  color:white;
+  background-color:red;
+}
+#aa {
+  width:50px;
+}
+a {
+  color:green;
+  background-color:orange;
+}
+
+p {
+  colo:white;
+  background-color:pink;
+}
+#bb {
+  height:200px;
+}
+.bb {
+  height:100px;
+  background-color:pink;
+}
+</style>
+
+<html>
+  <h1> Do Now </h1>
+  <h1> Hello </h1>
+  <h1> Lecture 1 </h1>
+  <h1 id = 'a'> AAA </h1>
+  <a href = "#" id = 'b'> BBB </a>
+  <br><br><br>
+  <img id = 'c' src = "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Pig_farm_Vampula_1.jpg/500px-Pig_farm_Vampula_1.jpg">
+  <h1 id = "d"> CCC </h1>
+  <h1> Activity 1 </h1>
+  <h1 id = 'e'> DDD </h1> 
+    <img id = 'f' src = "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Pig_farm_Vampula_1.jpg/500px-Pig_farm_Vampula_1.jpg">
+  <br>
+  <a id = 'g' href = #> EEE </a>
+  <h1 id = 'h'> FFF </h1>
+  <h1> Lecture 2 </h1>
+  <p class = 'a'> AAA </p>
+  <h1 class = 'a'> AAA </h1>
+  <a class = '' href = "#"> AAA </a>
+  <br>
+  <img class = 'b' src = "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Pig_farm_Vampula_1.jpg/500px-Pig_farm_Vampula_1.jpg">
+    <img class = 'b' src = "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Pig_farm_Vampula_1.jpg/500px-Pig_farm_Vampula_1.jpg">
+<br>
+    <img class = 'b' src = "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Pig_farm_Vampula_1.jpg/500px-Pig_farm_Vampula_1.jpg">
+  <h1> Activity 2 </h1>
+  <h1 class = 'c'> Hello </h1>
+  <h1 class = 'd'> Goodbye </h1>
+  <p class = 'c' > Hello </p>
+    <img class = 'e' src = "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Pig_farm_Vampula_1.jpg/500px-Pig_farm_Vampula_1.jpg">
+  <br>
+    <img class = 'e' src = "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Pig_farm_Vampula_1.jpg/500px-Pig_farm_Vampula_1.jpg">
+  <br>
+    <img class = 'e' src = "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Pig_farm_Vampula_1.jpg/500px-Pig_farm_Vampula_1.jpg">
+  <br>
+  <h1> Lecture 3 </h1>
+  <h1 class = 'aa'> AAA </h1>
+  <h2 class = 'aa'> AAA </h2>
+  <h3 class = 'aa'> AAA </h3>
+    <img id = 'aa' src = "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Pig_farm_Vampula_1.jpg/500px-Pig_farm_Vampula_1.jpg">
+  <br>
+  <a href = "#"> AAA </a>
+  <a href = "#"> AAA </a>
+  <a href = "#"> AAA </a>
+  <h1> Activity 3 </h1>
+  <p> BBB </p>
+  <p> BBB </p>
+  <p> BBB </p>
+    <img id = 'bb' src = "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Pig_farm_Vampula_1.jpg/500px-Pig_farm_Vampula_1.jpg">
+  <h3 class = bb> BBB </h3>
+    <h2 class = bb> BBB </h2>
+  <h1 class = bb> BBB </h1>
+
+</html>
