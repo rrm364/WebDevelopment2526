@@ -90,6 +90,24 @@ p {
 <html>
   <h1> Do Now </h1>
   <h1> Hello </h1>
+  <h1> Lecture 3 </h1>
+  <h1 class = 'aaa'> AAA </h1>
+  <h2 class = 'aaa'> AAA </h2>
+  <h3 class = 'aaa'> AAA </h3>
+    <img id = 'aaa' src = "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Pig_farm_Vampula_1.jpg/500px-Pig_farm_Vampula_1.jpg">
+  <br>
+  <a href = "#"> AAA </a>
+  <a href = "#"> AAA </a>
+  <a href = "#"> AAA </a>
+  <h1> Activity 3 </h1>
+  <p> BBB </p>
+  <p> BBB </p>
+  <p> BBB </p>
+    <img id = 'bbb' src = "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Pig_farm_Vampula_1.jpg/500px-Pig_farm_Vampula_1.jpg">
+  <h3 class = bbb> BBB </h3>
+    <h2 class = bbb> BBB </h2>
+  <h1 class = bbb> BBB </h1>
+
   <h1> Lecture 1 </h1>
   <h1 id = 'a'> AAA </h1>
   <a href = "#" id = 'b'> BBB </a>
