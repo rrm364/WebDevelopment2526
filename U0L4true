@@ -1,5 +1,25 @@
 <!DOCTYPE HTML>
 <style>
+#aaa {
+  width:50px;
+}
+a {
+  color:green;
+  background-color:orange;
+}
+
+p {
+  colo:white;
+  background-color:pink;
+}
+#bbb {
+  height:200px;
+}
+.bbb {
+  height:100px;
+  background-color:pink;
+}
+
 h1 {
   color:red;
   background-color:green;
