@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<h1> Do Now </h1>
+<img  src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Ours_brun_parcanimalierpyrenees_1.jpg/500px-Ours_brun_parcanimalierpyrenees_1.jpg' id = 'p1' onclick = p1()>
+
+<h1> Lecture 1 </h1>
+<a href = '#' id = 'q1' onclick = 'q1()'> AAA </a>
+<br>
+<a href = '#' class = 'q2' onclick = 'q1()'> BBB </a>
+<a href = '#' class = 'q2'onclick = 'q2()'> BBB </a>
+<a href = '#' class = 'q2' onclick = 'q2()'> BBB </a>
+
+<h1> Activity 1 </h1>
+<p onmouseover = 'q3()' onmouseout = 'q4()' id = 'q3'> Here are some words </p>
+<button onclick = q5()> Click Me! </button>
+
+<p class= 'a1'> </p>
+<p class= 'a1'> </p>
+<p class= 'a1'> </p>
+
+<h1> JS Quiz - Functions </h1>
+<h1> Use Id for the following three tags </h1>
+<h1 id = 'a' onclick = 'a()'>  A </h1>
+<h1 id = 'b' onmouseover = 'b()'> B </h1>
+<h1 id = 'c' onmouseover = 'c()' onmouseout = 'd()'> C </h1>
+<h1> Use Class for the following </h1>
+<button onclick = 'e()'> A Button </button>
+<h1 class = 'a'> D </h1>
+<h1 class = 'a'> E </h1>
+<h1 class = 'a'> F </h1>
+<h1 class = 'b' onmouseover = f() onmouseout = g()> G </h1>
+<h1 class = 'b' onmouseover = f() onmouseout = g()> H </h1>
+<h1 class = 'b' onmouseover = f() onmouseout = g()> I </h1>
+<h1> Lecture 3 </h1>
+<h1  onclick = ch(this)> AAA </h1> 
+<button onclick = ch2(this)> a button </button>
+<h1> Activity 4 </h1>
+<h1 onclick = ch3(this)> AAA </h1>
+<img  onclick = ch4(this) src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Oryctolagus_cuniculus_Rcdo.jpg/500px-Oryctolagus_cuniculus_Rcdo.jpg'> 
+<script>
+  function p1(){
+  document.getElementById('p1').src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Mixed_onions.jpg/500px-Mixed_onions.jpg'
+}
+
+function q1(){
+  document.getElementById('q1').innerHTML = 'Done'
+}
+
+function q2(){
+  var a = document.getElementsByClassName("q2")
+  for (i = 0 ; i < a.length; i++){
+    a[i].style.color = 'red'
+  }
+}
+
+
+function q3(){
+  document.getElementById('q3').style.color = 'red'
+}
+
+function q4(){
+  document.getElementById('q3').style.color = 'black'
+}
+
+function q5(){
+  var ps = document.getElementsByClassName('a1')
+  for (i=0;i < ps.length;i++){
+    ps[i].innerHTML = 'Here is some text'
+  }
+}
+function a(){
+  document.getElementById('a').style.color = 'red'
+}
+
+function b(){
+  document.getElementById('b').style.color = 'blue'
+}
+
+function c(){
+  document.getElementById('c').style.color = 'green'
+}
+
+function d(){
+  document.getElementById('c').style.color = 'black'
+}
+
+function e(){
+  var h1s= document.getElementsByClassName('a');
+  for (i = 0;i < h1s.length; i++){
+    h1s[i].style.color = 'red';
+    h1s[i].style.backgroundColor= 'blue'
+ 
+  }
+}  
+function f(){
+  var h1s= document.getElementsByClassName('b');
+  for (i = 0;i < h1s.length; i++){
+    h1s[i].style.textAlign = 'right';
+  }
+}
+  function g(){
+  var h1s= document.getElementsByClassName('b');
+  for (i = 0;i < h1s.length; i++){
+    h1s[i].style.textAlign = 'left'
+ 
+    }
+  }
+
+function ch(element){
+  element.style.color = 'red'
+}
+
+function ch2(e){
+  e.innerHTML = 'not a button'
+}
+  
+  function ch3(e){
+    e.innerHTML = 'BBB'
+  }
+
+function ch4(e){
+  e.src = ''
+}
+</script>
