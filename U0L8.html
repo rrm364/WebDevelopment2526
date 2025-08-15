@@ -1,123 +1,71 @@
-<!DOCTYPE html>
-<h1> Do Now </h1>
-<img  src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Ours_brun_parcanimalierpyrenees_1.jpg/500px-Ours_brun_parcanimalierpyrenees_1.jpg' id = 'p1' onclick = p1()>
-
-<h1> Lecture 1 </h1>
-<a href = '#' id = 'q1' onclick = 'q1()'> AAA </a>
+<h1> Q1 - Do Now </h1>
+<h1 id = 'a' onclick = a()> Click me! </h1>
+<h1 id = 'b' onclick = b()> Black </h1>
+<h1>  Q2 - Onclick Review </h1>
+<h1 id = 'c' onclick = c()> Left </h1>
 <br>
-<a href = '#' class = 'q2' onclick = 'q1()'> BBB </a>
-<a href = '#' class = 'q2'onclick = 'q2()'> BBB </a>
-<a href = '#' class = 'q2' onclick = 'q2()'> BBB </a>
+<button onclick = d()> Here is a button </button>
+<h1 id = d> </h1>
+<h1> Q3 - onClick practice </h1>
+<button onclick = 'e()'> Button </button>
+<img id = 'e' src = ''>
+<h1 id = 'f' onclick = f()> Click on me ! </h1>
+<h1> Q3 - onMouseOver </h1>
+<h1 id = 'g' onmouseover = g()> OnMouseover </h1>
+<img onmouseover = 'h()' id = 'h' src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Oryctolagus_cuniculus_Rcdo.jpg/250px-Oryctolagus_cuniculus_Rcdo.jpg'>
+<h1> Q4 - onMouesOver Independent Practice </h1>
+ <img src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Gyps_rueppellii_-Nairobi_National_Park%2C_Kenya-8-4c.jpg/250px-Gyps_rueppellii_-Nairobi_National_Park%2C_Kenya-8-4c.jpg' id = 'i' onmouseover = 'i()'>
+<h1 id = 'j' onmouseover = j()> Hover over me! </h1>
 
-<h1> Activity 1 </h1>
-<p onmouseover = 'q3()' onmouseout = 'q4()' id = 'q3'> Here are some words </p>
-<button onclick = q5()> Click Me! </button>
-
-<p class= 'a1'> </p>
-<p class= 'a1'> </p>
-<p class= 'a1'> </p>
-
-<h1> JS Quiz - Functions </h1>
-<h1> Use Id for the following three tags </h1>
-<h1 id = 'a' onclick = 'a()'>  A </h1>
-<h1 id = 'b' onmouseover = 'b()'> B </h1>
-<h1 id = 'c' onmouseover = 'c()' onmouseout = 'd()'> C </h1>
-<h1> Use Class for the following </h1>
-<button onclick = 'e()'> A Button </button>
-<h1 class = 'a'> D </h1>
-<h1 class = 'a'> E </h1>
-<h1 class = 'a'> F </h1>
-<h1 class = 'b' onmouseover = f() onmouseout = g()> G </h1>
-<h1 class = 'b' onmouseover = f() onmouseout = g()> H </h1>
-<h1 class = 'b' onmouseover = f() onmouseout = g()> I </h1>
-<h1> Lecture 3 </h1>
-<h1  onclick = ch(this)> AAA </h1> 
-<button onclick = ch2(this)> a button </button>
-<h1> Activity 4 </h1>
-<h1 onclick = ch3(this)> AAA </h1>
-<img  onclick = ch4(this) src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Oryctolagus_cuniculus_Rcdo.jpg/500px-Oryctolagus_cuniculus_Rcdo.jpg'> 
-<script>
-  function p1(){
-  document.getElementById('p1').src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Mixed_onions.jpg/500px-Mixed_onions.jpg'
-}
-
-function q1(){
-  document.getElementById('q1').innerHTML = 'Done'
-}
-
-function q2(){
-  var a = document.getElementsByClassName("q2")
-  for (i = 0 ; i < a.length; i++){
-    a[i].style.color = 'red'
-  }
-}
-
-
-function q3(){
-  document.getElementById('q3').style.color = 'red'
-}
-
-function q4(){
-  document.getElementById('q3').style.color = 'black'
-}
-
-function q5(){
-  var ps = document.getElementsByClassName('a1')
-  for (i=0;i < ps.length;i++){
-    ps[i].innerHTML = 'Here is some text'
-  }
-}
+<h1> Q5 </h1>
+<h1 id = 'k' onmouseover = j() onmouseout = k()> Hover over me! </h1>
+<style>
 function a(){
-  document.getElementById('a').style.color = 'red'
+  document.getElementById('a').innerHTML = 'Clicked!'
 }
 
 function b(){
-  document.getElementById('b').style.color = 'blue'
+  document.getElementById('b').style.color = 'red';
+  document.getElementById('b').innerHTML = 'red'
 }
 
 function c(){
-  document.getElementById('c').style.color = 'green'
+  document.getElementById('c').style.textAlign = 'right';
+    document.getElementById('c').innerHTML = 'right'
 }
 
-function d(){
-  document.getElementById('c').style.color = 'black'
+function d(){ document.getElementById('d').innerHTML = 'Tada!'
 }
-
 function e(){
-  var h1s= document.getElementsByClassName('a');
-  for (i = 0;i < h1s.length; i++){
-    h1s[i].style.color = 'red';
-    h1s[i].style.backgroundColor= 'blue'
- 
-  }
-}  
+ document.getElementById('e').src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Oryctolagus_cuniculus_Rcdo.jpg/250px-Oryctolagus_cuniculus_Rcdo.jpg' 
+}
+
 function f(){
-  var h1s= document.getElementsByClassName('b');
-  for (i = 0;i < h1s.length; i++){
-    h1s[i].style.textAlign = 'right';
-  }
-}
-  function g(){
-  var h1s= document.getElementsByClassName('b');
-  for (i = 0;i < h1s.length; i++){
-    h1s[i].style.textAlign = 'left'
- 
-    }
-  }
-
-function ch(element){
-  element.style.color = 'red'
+  document.getElementById('f').style.backgroundColor = 'orange'
 }
 
-function ch2(e){
-  e.innerHTML = 'not a button'
+function g(){
+  document.getElementById('g').innerHTML = 'This works'
+}
+
+function h(){
+  document.getElementById('h').src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Northern_Goshawk_ad_M2.jpg/250px-Northern_Goshawk_ad_M2.jpg'
+}
+
+function i(){
+  document.getElementById('i').src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Marmoset_copy.jpg/250px-Marmoset_copy.jpg'
+}
+
+function j(){
+  document.getElementById('j').style.color = 'white'
+  document.getElementById('j').style.backgroundColor = 'black'
+}
+
+
+function k(){
+    document.getElementById('j').style.color = 'black'
+  document.getElementById('j').style.backgroundColor = 'white'
+
 }
   
-  function ch3(e){
-    e.innerHTML = 'BBB'
-  }
-
-function ch4(e){
-  e.src = ''
-}
-</script>
+</style>
