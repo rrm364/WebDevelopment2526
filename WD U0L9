@@ -1,0 +1,73 @@
+<h1> U0L9 Q1 - Do Now </h1>
+<h1 id = 'a' onmouseover = 'a1()' onmouseleave = 'a2()'> Hover over me! </h1>
+<h1> U0L9 Q2 </h1>
+<h1 id = 'b' onclick = 'b()'> Click here! </h1>
+<h1> U0L9 Q3 </h1>
+<img id = 'c' onclick = 'c()' src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Vulpes_vulpes_ssp_fulvus.jpg/250px-Vulpes_vulpes_ssp_fulvus.jpg'> 
+<h1> U0L9 Q4 </h1>
+<button onclick = 'd()'> Click here </button>
+<br>
+<img src = '' id ='d'>
+<img src = '' id ='e'>
+<img src = '' id ='f'>
+<h1> U0L9 Q5 </h1>
+<button onclick = 'e()'> Click here </button>
+<h1 id = 'g'> A </h1>
+<h1 id = 'h'> A </h1>
+<h1 id = 'i'> A </h1>
+<h1> U0L9 Q6 </h1>
+<img id = 'j' onmouseover = 'j1()'onmouseleave = 'j2()'src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/African_Bush_Elephant.jpg/250px-African_Bush_Elephant.jpg'>
+<h1> U0L9 Q7 </h1>
+<h1 id = 'k' onmouseover = 'k1()' onmouseleave = 'k2()'> Lalalala! </h1>
+
+<script>
+  
+  function a1(){
+  document.getElementById('a').style.color = 'red'
+}
+
+function a2(){
+  document.getElementById('a').style.color = 'black'
+}
+
+function b(){
+  document.getElementById('b').style.backgroundColor = 'orange';
+}
+
+function c(){
+  document.getElementById('c').src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Eurasian_wolf_2.jpg/250px-Eurasian_wolf_2.jpg'
+}
+
+function d(){
+  document.getElementById('d').src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Walking_tiger_female.jpg/330px-Walking_tiger_female.jpg';
+  document.getElementById('e').src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg/250px-020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg';
+  document.getElementById('f').src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Standing_jaguar.jpg/330px-Standing_jaguar.jpg';
+  
+}
+
+function e(){
+  document.getElementById('g').style.color = 'red';
+  document.getElementById('h').style.color = 'green';
+  document.getElementById('i').style.color = 'blue';
+
+}
+
+
+
+function j1(){
+  document.getElementById('j').src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Southern_right_whale.jpg/250px-Southern_right_whale.jpg'
+}
+
+function j2(){
+  document.getElementById('j').src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/African_Bush_Elephant.jpg/250px-African_Bush_Elephant.jpg'
+}
+
+function k1(){
+  document.getElementById('k').style.backgroundColor = 'black'
+}
+
+function k2(){
+  document.getElementById('k').style.backgroundColor = 'red'
+}
+  
+</script>
