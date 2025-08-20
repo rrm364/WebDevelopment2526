@@ -1,1 +1,51 @@
+// Color Name	Hex Code
+// White	    #FFFFFF
+// Black	    #000000
+// Red	      #FF0000
+// Green	    #00FF00
+// Blue	      #0000FF
+// Yellow	    #FFFF00
+// Orange	    #FFA500
+// Purple	    #800080
+// Pink	      #FFC0CB
+// Gray	      #808080
 
+
+
+
+
+
+
+var config = {
+    type: Phaser.AUTO,
+    width: 800,
+    height: 600,
+    scene: {
+        preload: preload,
+        create: create,
+        update: update
+    }
+};
+
+var game = new Phaser.Game(config);
+
+function preload ()
+{
+}
+
+function create ()
+{
+  this.add.text(20,20,"Here is question #2", {
+    color:'red',
+    fontSize:'50px'
+  })
+  this.add.text(20,60,'This is \na new line \nand another new line')
+  this.add.text(200,120,'More \nlines \nof \ncode', {
+    color:'orange',
+    backgroundColor:'green'
+  })
+}
+
+function update ()
+{
+}
