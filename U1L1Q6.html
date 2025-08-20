@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title> </title>
+  <script src="https://cdn.jsdelivr.net/npm/phaser@3.55.2/dist/phaser.min.js"></script>
+</head>
+<body>
+  <script>
+  // Color Name	Hex Code
+// White	    #FFFFFF
+// Black	    #000000
+// Red	      #FF0000
+// Green	    #00FF00
+// Blue	      #0000FF
+// Yellow	    #FFFF00
+// Orange	    #FFA500
+// Purple	    #800080
+// Pink	      #FFC0CB
+// Gray	      #808080
+
+
+
+
+
+
+
+var config = {
+    type: Phaser.AUTO,
+    width: 800,
+    height: 600,
+    scene: {
+        preload: preload,
+        create: create,
+        update: update
+    }
+};
+
+var game = new Phaser.Game(config);
+
+function preload ()
+{
+}
+
+function create ()
+{
+  this.add.text(20,20,'Orange Text',{
+    fill:'#FFA500'
+  })
+  this.add.text(20,60,'More Orange Text',{
+    fill:'#FFA500'
+  })
+  this.add.text(600,20,'Pink Text',{
+    fill:'#FFC0CB'
+  })
+  this.add.text(600,60,'More Pink Text',{
+    fill:'#FFC0CB'
+  })
+  this.add.text(350,300,'Gray Text',{
+    fill:'#808080'
+  })
+  this.add.text(350,340,'More Gray Text',{
+    fill:'#808080'
+  })
+
+}
+
+function update ()
+{
+}
+  </script>
+</body>
+</html>
