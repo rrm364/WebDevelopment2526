@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title> </title>
+  <script src="https://cdn.jsdelivr.net/npm/phaser@3.55.2/dist/phaser.min.js"></script>
+</head>
+<body>
+  <script>
+  var config = {
+    type: Phaser.AUTO,
+    width: 800,
+    height: 600,
+    scene: {
+        preload: preload,
+        create: create,
+        update: update
+    }
+};
+
+var game = new Phaser.Game(config);
+
+function preload ()
+{
+}
+
+function create ()
+{
+      this.add.text(0,0,'Here is question 2')
+      this.add.text(200,0,'Lalalala')
+      this.add.text(200,20,'More Lalala')
+      this.add.text(610,580,'On the borrom right')
+
+
+}
+
+function update ()
+{
+}
+  </script>
+</body>
+</html>
