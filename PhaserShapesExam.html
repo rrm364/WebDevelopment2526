@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Phaser Class — 15 Blank Questions</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Phaser 3 -->
+  <script src="https://cdn.jsdelivr.net/npm/phaser@3.60.0/dist/phaser.min.js"></script>
+  <!-- Your questions & scene setup -->
+  <script>
+  // Color Name	Hex Code
+// White	    0xFFFFFF
+// Black	    0x000000
+// Red	      0xFF0000
+// Green	    0x00FF00
+// Blue	      0x0000FF
+// Yellow	    0xFFFF00
+// Orange	    0xFFA500
+// Purple	    0x800080
+// Pink	      0xFFC0CB
+// Gray	      0x808080
+function drawPlayfield(scene, color = 0xf8fafc) {
+  scene.add.rectangle(400, 300, 800, 600, color).setStrokeStyle(2, 0x94a3b8);
+}
+
+// ---------------------- Question 1 ---------------------------
+// Red	      0xFF0000
+// Green	    0x00FF00
+// Blue	      0x0000FF
+
+class Q1 extends Phaser.Scene {
+  constructor(){ super('Q1'); }
+  create(){
+    this.add.rectangle(400,300,800,600,0x0000FF)
+ this.add.circle(400,300,300,0xFF0000)
+ this.add.circle(400,300,200,0x0000FF)
+  }
+  update(){}
+}
+
+// ---------------------- Question 2 ---------------------------
+// Red	      0xFF0000
+// Green	    0x00FF00
+// Blue	      0x0000FF
+
+class Q2 extends Phaser.Scene {
+  constructor(){ super('Q2'); }
+  create(){
+      this.add.rectangle(400,300,800,600,0x00FF00)
+    this.add.rectangle(400,300,600,400,0xFF0000)
+    this.add.rectangle(400,300,400,200,0x0000FF)
+    
+  }
+  update(){}
+}
+
+// ---------------------- Question 3 ---------------------------
+// Red	      0xFF0000
+// Green	    0x00FF00
+// Blue	      0x0000FF
+
+class Q3 extends Phaser.Scene {
+  constructor(){ super('Q3'); }
+  create(){
+    this.add.rectangle(400,300,800,600,0xFF0000)
+this.add.circle(400,300,300,0x0000FF)
+    this.add.rectangle(400,300,200,200,0xFF0000)
+    this.add.circle(400,300,50,0x0000FF)
+  }
+  update(){}
+}
+
+// ---------------------- Question 4 ---------------------------
+class Q4 extends Phaser.Scene {
+  constructor(){ super('Q4'); }
+  create(){
+      this.add.circle(100,100,100,0x0000FF)
+      this.add.circle(300,100,100,0x0000FF)
+      this.add.circle(500,100,100,0x0000FF)
+      this.add.circle(700,100,100,0x0000FF)
+
+  }
+  update(){}
+}
+
+// ---------------------- Question 5 ---------------------------
+// Red	      0xFF0000
+// Green	    0x00FF00
+// Blue	      0x0000FF
+
+class Q5 extends Phaser.Scene {
+  constructor(){ super('Q5'); }
+  create(){
+      this.add.rectangle(200,300,400,600,0x0000FF)
+    this.add.rectangle(600,300,400,600,0x00FF00)
+    this.add.circle(400,300,300,0xFF0000)
+  }
+  update(){}
+}
+
+// ---------------------- Question 6 ---------------------------
+// Red	      0xFF0000
+// Green	    0x00FF00
+// Blue	      0x0000FF
+
+class Q6 extends Phaser.Scene {
+  constructor(){ super('Q6'); }
+  create(){
+    this.add.ellipse(400,300,800,600,0x0000FF)
+        this.add.ellipse(400,300,600,400,0x00FF00)
+        this.add.ellipse(400,300,400,200,0xFF0000)
+
+  }
+  update(){}
+}
+
+// ---------------------- Question 7 ---------------------------
+class Q7 extends Phaser.Scene {
+  constructor(){ super('Q7'); }
+  create(){
+this.add.ellipse(400,100,800,200,0xFF0000)
+this.add.ellipse(400,300,800,200,0xFF0000)
+this.add.ellipse(400,500,800,200,0xFF0000)
+  
+  }
+  update(){}
+}
+
+// ---------------------- Question 8 ---------------------------
+// Red	      0xFF0000
+// Green	    0x00FF00
+// Blue	      0x0000FF
+
+
+class Q8 extends Phaser.Scene {
+  constructor(){ super('Q8'); }
+  create(){
+this.add.rectangle(200,150,400,300,0x0000FF)
+this.add.rectangle(600,450,400,300,0x0000FF)
+    this.add.circle(600,150,100,0x00FF00)
+    this.add.circle(200,450,150,0x00FF00)
+        this.add.circle(200,150,100,0x00FF00)
+    this.add.circle(600,450,150,0x00FF00)
+  }
+  update(){}
+}
+
+// ---------------------- Question 9 ---------------------------
+// Red	      0xFF0000
+// Green	    0x00FF00
+// Blue	      0x0000FF
+
+class Q9 extends Phaser.Scene {
+  constructor(){ super('Q9'); }
+  create(){
+    this.add.rectangle(200,300,400,600,0xFF0000)
+    this.add.ellipse(200,300,400,600,0x0000FF)
+    this.add.circle(200,300,200,0xFF0000)
+    this.add.rectangle(600,300,400,600,0x0000FF)
+    this.add.ellipse(600,300,400,600,0x00FF00)
+    this.add.circle(600,300,200,0x0000FF)
+  }
+  update(){}
+}
+
+// ---------------------- Question 10 --------------------------
+class Q10 extends Phaser.Scene {
+  constructor(){ super('Q10'); }
+  create(){
+    // ===== Q10 — START HERE =====
+    // Put your Q10 setup code here
+    // ===== Q10 — END HERE =====
+  }
+  update(){}
+}
+
+// ---------------------- Question 11 --------------------------
+class Q11 extends Phaser.Scene {
+  constructor(){ super('Q11'); }
+  create(){
+    // ===== Q11 — START HERE =====
+    // Put your Q11 setup code here
+    // ===== Q11 — END HERE =====
+  }
+  update(){}
+}
+
+// ---------------------- Question 12 --------------------------
+class Q12 extends Phaser.Scene {
+  constructor(){ super('Q12'); }
+  create(){
+    // ===== Q12 — START HERE =====
+    // Put your Q12 setup code here
+    // ===== Q12 — END HERE =====
+  }
+  update(){}
+}
+
+// ---------------------- Question 13 --------------------------
+class Q13 extends Phaser.Scene {
+  constructor(){ super('Q13'); }
+  create(){
+    // ===== Q13 — START HERE =====
+    // Put your Q13 setup code here
+    // ===== Q13 — END HERE =====
+  }
+  update(){}
+}
+
+// ---------------------- Question 14 --------------------------
+class Q14 extends Phaser.Scene {
+  constructor(){ super('Q14'); }
+  create(){
+    // ===== Q14 — START HERE =====
+    // Put your Q14 setup code here
+    // ===== Q14 — END HERE =====
+  }
+  update(){}
+}
+
+// ---------------------- Question 15 --------------------------
+class Q15 extends Phaser.Scene {
+  constructor(){ super('Q15'); }
+  create(){
+    // ===== Q15 — START HERE =====
+    // Put your Q15 setup code here
+    // ===== Q15 — END HERE =====
+  }
+  update(){}
+}
+
+// Shared config factory (all canvases identical size/styling)
+function makeConfig(parentId, sceneClass){
+  return {
+    type: Phaser.AUTO,
+    width: 800,
+    height: 600,
+    backgroundColor: '#ffffff',
+    parent: parentId,
+    scene: sceneClass
+  };
+}
+
+// Create 15 independent blank games, stacked in the DOM
+new Phaser.Game(makeConfig('q1', Q1));
+new Phaser.Game(makeConfig('q2', Q2));
+new Phaser.Game(makeConfig('q3', Q3));
+new Phaser.Game(makeConfig('q4', Q4));
+new Phaser.Game(makeConfig('q5', Q5));
+new Phaser.Game(makeConfig('q6', Q6));
+new Phaser.Game(makeConfig('q7', Q7));
+new Phaser.Game(makeConfig('q8', Q8));
+new Phaser.Game(makeConfig('q9', Q9));
+new Phaser.Game(makeConfig('q10', Q10));
+new Phaser.Game(makeConfig('q11', Q11));
+new Phaser.Game(makeConfig('q12', Q12));
+new Phaser.Game(makeConfig('q13', Q13));
+new Phaser.Game(makeConfig('q14', Q14));
+new Phaser.Game(makeConfig('q15', Q15));
+
+  </script>
+  <style>
+    body { margin: 0; font-family: system-ui, Arial, sans-serif; background:#f6f7f9; }
+    .wrap { max-width: 900px; margin: 16px auto; display: grid; gap: 16px; }
+    .card { background:#fff; border:1px solid #e5e7eb; border-radius:12px; overflow:hidden; }
+    .card header { background:#111827; color:#fff; padding:10px 14px; font-weight:600; }
+    .card .desc { padding:10px 14px; color:#475569; border-bottom:1px solid #e5e7eb; }
+    .game { display:block; margin: 0 auto; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <section class="card"><header>Question 1</header><div class="desc">Write your own instructions here.</div><div id="q1" class="game"></div></section>
+    <section class="card"><header>Question 2</header><div class="desc">Write your own instructions here.</div><div id="q2" class="game"></div></section>
+    <section class="card"><header>Question 3</header><div class="desc">Write your own instructions here.</div><div id="q3" class="game"></div></section>
+    <section class="card"><header>Question 4</header><div class="desc">Write your own instructions here.</div><div id="q4" class="game"></div></section>
+    <section class="card"><header>Question 5</header><div class="desc">Write your own instructions here.</div><div id="q5" class="game"></div></section>
+    <section class="card"><header>Question 6</header><div class="desc">Write your own instructions here.</div><div id="q6" class="game"></div></section>
+    <section class="card"><header>Question 7</header><div class="desc">Write your own instructions here.</div><div id="q7" class="game"></div></section>
+    <section class="card"><header>Question 8</header><div class="desc">Write your own instructions here.</div><div id="q8" class="game"></div></section>
+    <section class="card"><header>Question 9</header><div class="desc">Write your own instructions here.</div><div id="q9" class="game"></div></section>
+    <section class="card"><header>Question 10</header><div class="desc">Write your own instructions here.</div><div id="q10" class="game"></div></section>
+    <section class="card"><header>Question 11</header><div class="desc">Write your own instructions here.</div><div id="q11" class="game"></div></section>
+    <section class="card"><header>Question 12</header><div class="desc">Write your own instructions here.</div><div id="q12" class="game"></div></section>
+    <section class="card"><header>Question 13</header><div class="desc">Write your own instructions here.</div><div id="q13" class="game"></div></section>
+    <section class="card"><header>Question 14</header><div class="desc">Write your own instructions here.</div><div id="q14" class="game"></div></section>
+    <section class="card"><header>Question 15</header><div class="desc">Write your own instructions here.</div><div id="q15" class="game"></div></section>
+  </div>
+</body>
+</html>
